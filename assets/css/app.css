@@ -1,3 +1,9 @@
+/* This looks different from the instructions on the website. The website says::after
+(https://tailwindcss.com/docs/guides/phoenix)
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;ww
+*/
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
