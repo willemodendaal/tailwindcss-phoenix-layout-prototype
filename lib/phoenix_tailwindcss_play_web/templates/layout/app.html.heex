@@ -1,5 +1,17 @@
-<main class="container">
-  <p class="alert alert-info" role="alert"><%= get_flash(@conn, :info) %></p>
-  <p class="alert alert-danger" role="alert"><%= get_flash(@conn, :error) %></p>
-  <%= @inner_content %>
+<main class="grow flex flex-col">
+  <div class="p-4 outline outline-blue-500 grow flex flex-col">
+    <div class="outline grow-0">
+      Toolbar panel
+    </div>
+    <div class="outline grow">
+      Center
+    </div>
+    <div class="outline grow-0">
+      Status panel
+    </div> 
+  </div>
+
+  <div class="hidden"> <div>This is /page/index.html.heex</div> 
+    <div><%= @inner_content %> </div>
+  </div>
 </main>
